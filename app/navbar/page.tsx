@@ -11,7 +11,7 @@ export function Navbar(){
     ]
     return(
         <nav className="flex w-full items-center justify-between px-[5px] py-[14px]  
-        lg:mx-auto lg:px-20 bg-gradient-to-r from-red-300 via-red-100 to-red-300 ...">
+        lg:mx-auto lg:px-20 bg-gradient-to-r from-darkRed via-mediumRed to-darkRed ...">
             <div className="flex items-center">
             <Image
             src={Diary}
@@ -19,6 +19,7 @@ export function Navbar(){
             width={70}
             height={50}
             />
+           
              <div className="hidden lg:flex pl-[74px] gap-x-[56px] px-[20px] py-[16px]">
                {nanvLinks.map((item,index)=>
                 (
