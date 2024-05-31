@@ -11,6 +11,7 @@ const config: Config = {
       colors:{
 darkRed:"#fca5a5",
 mediumRed:"#fee2e2",
+violet:'#4c1d95',
 
 
       },
