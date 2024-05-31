@@ -32,7 +32,7 @@ export function Navbar(){
             
             <div className="flex items-center gap-x-[56px]">
             <span className="hidden lg:block font-medium text-violet">Open Account</span>
-            <Link href="/ui/login"><span className="hidden lg:block font-medium text-violet ">Sign in</span></Link>
+            <Link href="/ui/cards"><span className="hidden lg:block font-medium text-violet ">Sign in</span></Link>
             
                 <Image
                  src={User}
