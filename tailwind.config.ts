@@ -15,6 +15,14 @@ violet:'#4c1d95',
 
 
       },
+      width: {
+        '128': '36rem',   // Custom width class for w-128
+        '144': '36rem',   // Custom width class for w-144
+      },
+      height: {
+        '128': '30rem',   // Custom height class for h-128
+        '144': '20rem',   // Custom height class for h-144
+      },
       backgroundImage: {
         pageBg:"url('/landscape.jpg')"
       },
