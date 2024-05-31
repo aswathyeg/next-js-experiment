@@ -12,8 +12,8 @@ return(
     <main className=" bg-cover bg-center bg-no-repeat  ">
              
    
-             <div className=" flex justify-center items-center bg-red-200  ">
-                 <aside className="bg-white w-128 h-144 rounded-xl bg-opacity-20 shadow-lg shadow-black ">
+             <div className=" flex justify-center items-center bg-red-200">
+                 <aside className="bg-white w-full max-w-md lg:max-w-none lg:w-128 lg:h-144  rounded-xl bg-opacity-20 shadow-lg shadow-black ">
              <h1 className="text-center text-black font-dark text-4xl bg-white rounded-t-xl m-0 py-4">
                  Log In
              </h1>
