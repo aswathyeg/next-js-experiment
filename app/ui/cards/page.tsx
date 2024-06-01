@@ -6,7 +6,8 @@ import hero from "@/public/diary-colored.svg";
 import Link from "next/link"
 export default function Card(){
 return(
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 bg-pageBg">
+    
+    <div className=" bg-cover bg-center flex justify-center items-center min-h-screen bg-gray-100 bg-pageBg">
     <div className=" rounded overflow-hidden shadow-lg ">
    
     <main className=" bg-cover bg-center bg-no-repeat  ">
@@ -41,7 +42,9 @@ return(
                          Sign In
                      </button> */}
                  {/* </div> */}
-                 <div className="flex px-20 pt-4 mt-5 font-bold">
+
+
+                 {/* <div className="flex px-20 pt-4 mt-5 font-bold">
                  <Link href="/ui/sign-up"
                  className="text-black cursor-pointer 
                  transition hover:text-red-900">
@@ -62,7 +65,30 @@ return(
        Home
       </span>
       </Link>
-    </div>
+    </div> */}
+     <div className="px-6 pt-4 pb-2">
+     <Link href="/ui/sign-up"
+                 className="text-black cursor-pointer 
+                 transition hover:text-red-900">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-md font-semibold  mr-2 mb-2">
+        Register
+        </span>
+        </Link>
+        <Link href=""
+      className="text-black cursor-pointer 
+      transition hover:text-red-900">
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-md font-semibold  mr-2 mb-2">
+        Sign In
+        </span>
+        </Link>
+        <Link href="/"
+     className="text-white cursor-pointer 
+     transition hover:text-yellow-900">
+        <span className="inline-block bg-violet rounded-full px-3 py-1 text-md font-semibold  mr-2 mb-2">
+        Home
+        </span>
+        </Link>
+      </div>
              </form>
              </aside>
              </div>
