@@ -11,17 +11,18 @@ export function Navbar(){
         {name:"Subscription"}
     ]
     return(
-        <nav className="flex w-full items-center justify-between px-[5px] py-[14px]  
-        lg:mx-auto lg:px-20 bg-gradient-to-r from-darkRed via-mediumRed to-darkRed ...">
+        <nav className="flex w-full items-center justify-between px-[20px] py-[14px] 
+        lg:mx-auto bg-cover bg-center bg-gradient-to-r from-darkRed via-mediumRed to-darkRed ... ">
             <div className="flex items-center">
+                <div className="pl-[84px]">
             <Image
             src={Diary}
             alt="logo"
             width={60}
             height={40}
-            className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ..."
+            className=" transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ..."
             />
-           
+           </div>
              <div className="hidden lg:flex pl-[74px] gap-x-[56px] px-[20px] py-[16px] text-violet ">
                {nanvLinks.map((item,index)=>
                 (
