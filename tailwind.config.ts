@@ -25,7 +25,8 @@ violet:'#4c1d95',
         '144': '20rem',   // Custom height class for h-144
       },
       backgroundImage: {
-        pageBg:"url('/landscape.jpg')"
+        pageBg:"url('/landscape.jpg')",
+        cardpageBg:"url('/japan.jpg')",
       },
     },
   },
