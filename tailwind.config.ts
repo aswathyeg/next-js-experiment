@@ -12,11 +12,21 @@ const config: Config = {
 darkRed:"#fca5a5",
 mediumRed:"#fee2e2",
 violet:'#4c1d95',
+// darkBlue:
 
 
       },
+      width: {
+        '128': '36rem',   // Custom width class for w-128
+        '144': '36rem',   // Custom width class for w-144
+      },
+      height: {
+        '128': '30rem',   // Custom height class for h-128
+        '144': '20rem',   // Custom height class for h-144
+      },
       backgroundImage: {
-        pageBg:"url('/landscape.jpg')"
+        pageBg:"url('/landscape.jpg')",
+        cardpageBg:"url('/japan.jpg')",
       },
     },
   },

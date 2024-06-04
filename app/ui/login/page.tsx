@@ -3,7 +3,11 @@ import Link from "next/link"
 Link
 export default function LoginPage(){
     return(
-        <main className="bg-pageBg bg-cover bg-center bg-no-repeat">
+        <div className="flex justify-center items-center min-h-screen bg-gray-100">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <main className="bg-pageBg bg-cover bg-center bg-no-repeat ">
+             
+   
             <div className="w-full h-screen flex justify-center items-center bg-black opacity-80">
                 <aside className="bg-white w-full max-w-md rounded-xl bg-opacity-20 shadow-lg shadow-black">
             <h1 className="text-center text-black font-dark text-4xl bg-white rounded-t-xl m-0 py-4">
@@ -36,6 +40,10 @@ export default function LoginPage(){
             </form>
             </aside>
             </div>
+            
+
         </main>
+        </div>
+        </div>
     )
 }
