@@ -21,6 +21,7 @@ export default function IconCard() {
       <Navbar />
       <div className=" bg-cover bg-center flex justify-center items-center min-h-screen bg-gray-100 bg-cardpageBg">
         <div className="fixed bottom-0 left-0 right-0 mx-auto mb-4  w-full p-4 bg-white shadow-lg rounded-lg bg-gradient-to-r from-cyan-600 to-blue-900 ...">
+          {/* to increase the width of the card,adjust 'mb' value below */}
           <div className="flex flex-col sm:flex-row justify-around items-center mb-8">
             <div className="flex flex-col items-center mb-4 sm:mb-0">
               <div className="bg-gray-200 rounded-full p-3">
