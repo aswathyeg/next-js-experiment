@@ -1,9 +1,13 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import Diary from "@/public/diary-black.svg";
 import User from "@/public/user.svg";
 import Menu from "@/public/menu.svg";
 import Link from "next/link";
 export function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
   const nanvLinks = [
     { name: "Home" },
     { name: "Your Life,stories" },
