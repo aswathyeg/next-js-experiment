@@ -16,7 +16,7 @@ export function Landing() {
          text-violet font-serif font-extrabold"
         >
           <h1
-            className={`${prompt.className} text-xl text-violet md:text-7xl md:leading-normal`}
+            className={`${prompt.className} text-xl text-blue-900 hover:text-cyan-800 md:text-7xl md:leading-normal`}
           >
             My Diary Tales
           </h1>
