@@ -1,4 +1,5 @@
 import { prompt } from "@/app/ui/fonts";
+import IconCard from "../ui/iconCard/page";
 // import { tenorSans } from "@/app/ui/fonts";
 export function Landing() {
   return (
@@ -10,14 +11,18 @@ export function Landing() {
             
             /> */}
 
-        <div className=" absolute max-w-screen-lg m-auto-h-[200vh] py-5 px-5 my-10 text-center text-6xl text-violet font-serif font-extrabold">
+        <div
+          className=" absolute max-w-screen-lg m-auto-h-[200vh] py-5 px-5 my-10 text-center text-6xl
+         text-violet font-serif font-extrabold"
+        >
           <h1
-            className={`${prompt.className} text-xl text-violet md:text-6xl md:leading-normal`}
+            className={`${prompt.className} text-xl text-violet md:text-7xl md:leading-normal`}
           >
             My Diary Tales
           </h1>
         </div>
       </div>
+      <IconCard />
     </div>
   );
 }
