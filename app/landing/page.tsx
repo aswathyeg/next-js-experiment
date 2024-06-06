@@ -1,7 +1,7 @@
 import { prompt } from "@/app/ui/fonts";
 import IconCard from "../ui/iconCard/page";
 // import { tenorSans } from "@/app/ui/fonts";
-export function Landing() {
+export default function Landing() {
   return (
     <div>
       <div className="flex flex-col items-center justify-between">
